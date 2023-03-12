@@ -1,5 +1,7 @@
 
-#Any vowel (glasniy zvuk) in a word will be substituted with "g". Examples:  dog -> dgg;  cat -> cgt; oops -> ggps
+'''Any vowel (glasniy zvuk) in a word will be substituted with "g". 
+   Examples:  dog -> dgg;  cat -> cgt; oops -> ggps
+'''
 def translate(phrase):
     transation = ""
     for letter in phrase:
