@@ -13,12 +13,12 @@ for generate in range(set_list):
 def checker2(list):
     for i, sample_item in enumerate(list):
         print("Sample:", i, sample_item)
-        for j, item in enumerate(list, start=i+1):
+        for j, item in enumerate(list[i+1:], start=i+1):
             print("\tItem:", j, item)
             if item == sample_item:
                 print("Remove element #" + str(j))
                 list.pop(j)
-    return list   
+    return list
 
 print("Згенеруємо list, що буде складатись з {} трьоелементних листів:".format(set_list), list_general)
 print("List:", checker2(list_general))
