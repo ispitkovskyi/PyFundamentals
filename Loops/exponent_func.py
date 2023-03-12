@@ -6,4 +6,4 @@ def raise_to_power(base_num, power_num):
 
     return result
 
-print(raise_to_power(3,5))
+print(raise_to_power(3, 5))
