@@ -1,4 +1,4 @@
-
+# "from" refers to a file name, and "import" refers to a class name
 from Student import Student
 
 student1 = Student("Jim", "Business", 3.1, False)
